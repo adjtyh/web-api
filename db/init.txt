@@ -1,0 +1,4 @@
+create database webapi;
+
+grant all privileges on webapi.* to 'msadmin'@'%' identified by 'msadmin';
+

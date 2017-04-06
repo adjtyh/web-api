@@ -1,0 +1,28 @@
+{
+    "name": "web-api",
+    "version": "1.0.0",
+    "description": "koa 2 web-api",
+    "main": "app.js",
+    "scripts": {
+        "start": "node --use_strict app.js"
+    },
+    "keywords": [
+        "koa",
+        "async"
+    ],
+    "author": "adjtyh",
+    "license": "Apache-2.0",
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "dependencies": {
+        "koa": "2.2.0",
+        "koa-bodyparser": "4.2.0",
+        "koa-router": "7.1.1",
+        "koa-json":"2.0.2",
+        "sequelize": "3.30.4",
+        "mysql": "2.13.0",
+        "node-uuid":"1.4.8"
+    }
+}
